@@ -29,7 +29,7 @@ public class HelloWorldControllerTests {
     @Test
     void testIndex() {
         final String result = client.toBlocking().retrieve("/");
-        assertEquals("Hello from Micronaut", result);
+        assertEquals("Micronaut Controller + Service", result);
     }
 
 
